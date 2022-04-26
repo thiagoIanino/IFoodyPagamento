@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="RabbitMQ.Client" Version="5.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IFoodyPagamento.Application\IFoodyPagamento.Application.csproj" />
+    <ProjectReference Include="..\IFoodyPagamento.CrossCutting\IFoodyPagamento.CrossCutting.csproj" />
+    <ProjectReference Include="..\IFoodyPagamento.Domain\IFoodyPagamento.Domain.csproj" />
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IFoodyPagamento.Api", "IFoodyPagamento.Api\IFoodyPagamento.Api.csproj", "{DA5DBCC9-0F29-4CAD-A4FD-0FDA29C72EE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFoodyPagamento.Domain", "IFoodyPagamento.Domain\IFoodyPagamento.Domain.csproj", "{1831F665-1141-487E-8E41-F17A807520B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFoodyPagamento.Application", "IFoodyPagamento.Application\IFoodyPagamento.Application.csproj", "{1880FA23-2790-4078-B48B-7CA0CC92FD2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFoodyPagamento.Infrastructure", "IFoodyPagamento.Repository\IFoodyPagamento.Infrastructure.csproj", "{702352B6-F94C-4246-9015-CEEB6B0A6169}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFoodyPagamento.CrossCutting", "IFoodyPagamento.CrossCutting\IFoodyPagamento.CrossCutting.csproj", "{748BE0FE-02F6-4E80-AD4F-E5B6EB4CA6DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA5DBCC9-0F29-4CAD-A4FD-0FDA29C72EE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA5DBCC9-0F29-4CAD-A4FD-0FDA29C72EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA5DBCC9-0F29-4CAD-A4FD-0FDA29C72EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA5DBCC9-0F29-4CAD-A4FD-0FDA29C72EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1831F665-1141-487E-8E41-F17A807520B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1831F665-1141-487E-8E41-F17A807520B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1831F665-1141-487E-8E41-F17A807520B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1831F665-1141-487E-8E41-F17A807520B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1880FA23-2790-4078-B48B-7CA0CC92FD2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1880FA23-2790-4078-B48B-7CA0CC92FD2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1880FA23-2790-4078-B48B-7CA0CC92FD2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1880FA23-2790-4078-B48B-7CA0CC92FD2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{702352B6-F94C-4246-9015-CEEB6B0A6169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{702352B6-F94C-4246-9015-CEEB6B0A6169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{702352B6-F94C-4246-9015-CEEB6B0A6169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{702352B6-F94C-4246-9015-CEEB6B0A6169}.Release|Any CPU.Build.0 = Release|Any CPU
+		{748BE0FE-02F6-4E80-AD4F-E5B6EB4CA6DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{748BE0FE-02F6-4E80-AD4F-E5B6EB4CA6DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{748BE0FE-02F6-4E80-AD4F-E5B6EB4CA6DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{748BE0FE-02F6-4E80-AD4F-E5B6EB4CA6DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF7D1DEF-7CF8-4B47-955B-CC311B7CEE75}
+	EndGlobalSection
+EndGlobal
